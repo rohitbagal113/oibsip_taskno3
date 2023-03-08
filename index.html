@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+        <div class="card center" style="width: 29rem; height:28rem ;border-radius: 40px;">
+            <div class="card-body" style="background-color:rgb(203, 33, 33); border-radius: 40px;">
+                <h2 class="card-title bac" style="color: rgb(22, 22, 131); padding-bottom: 3%;">Temperature conversion</h2>
+                <label>please enter the temperature in</label>
+                <label for="tempNum" style="color:rgb(219, 227, 58); font-size: larger;">Degrees</label>
+                <input id="tempNum" type="number" name="tempNum" value="54" />
+                <p>please select the current unit of Temperature</p>
+                <label for="cars" style="color:rgb(38, 127, 137); font-size: larger;">Choose a type:</label>
+                <select name="options" id="options">
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                    <option value="Kelvin">Kelvin</option>
+                </select>
+                <input id="result" type="text" name="result" value="0" />
+                <input id="Kelvin" type="text" name="Kelvin" value="0" />
+                <button type="button" onClick="def()" class="btn btn-success">convert</button>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
